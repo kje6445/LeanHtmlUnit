@@ -41,9 +41,9 @@ public class Building4 {
 		//시설물 대여 페이지로
 		/*HtmlPage page2 = webClient.getPage("https://forest.skhu.ac.kr/Gate/SAM/Lesson/G/SSEG20P.aspx?maincd=0&systemcd=S&seq=100");*/
 		// 종합정보시스템 메인페이지에서 시설물대여 시스템페이지로 이동하기
-		System.out.println(homepage.asXml());
-		HtmlPage page3 = webClient.getPage("https://forest.skhu.ac.kr/Gate/UniMyMain/UniTopMenu.aspx"); // 로그인 후 종합정보 시스템 페이지
-		System.out.println(page3.asXml());
+		/*System.out.println("homepage 값 받기"+homepage.asXml());*/ //--> homepage와 page3는 같은 화면을 출력한다.
+		/*HtmlPage page3 = webClient.getPage("https://forest.skhu.ac.kr/Gate/UniMyMain.aspx"); // 로그인 후 종합정보 시스템 페이지
+		System.out.println("Page3 값 받기"+page3.asXml());*/
 /*
 		HtmlPage page11 = (HtmlPage) page3.getByXPath("//frame[@id = 'topFrmae']");
 		System.out.println(page11.asXml());
@@ -52,8 +52,26 @@ public class Building4 {
 		System.out.println("Login Success");
 
 		/*HtmlForm formSelect = page.getFormByName("");*/
-		HtmlAnchor formSelect = (HtmlAnchor) page3.getByXPath("/div[@class='MenuDiv']/table/tbody/tr[1]/td/span[@class='']/a");
-		System.out.println(formSelect.asText());
+		/*HtmlAnchor formSelect = (HtmlAnchor) page3.getByXPath("//frame[@name='mainFrame']/div[@class='MenuDiv']/table/tbody/tr[1]/td/span[@class='leftmenu2']/a");*/
+		/*System.out.println(formSelect.asText());*/
+		/*HtmlPage page2 = webClient.getPage("https://forest.skhu.ac.kr/Gate/UniLeftMenuOneStop.aspx?sabeon=6noZSllCqeCXeMHtxEMRtddsKhVlFLu8&amp;maincd=&amp;systemcd=");*/
+
+/*		HtmlAnchor first = (HtmlAnchor) homepage.getByXPath("//frame[@name='leftFrame']//div[@class='MenuDiv']/table/tbody/tr[1]/td/span[@class='leftmenu']/a").get(1);
+		first.click();*/
+
+		HtmlAnchor first = (HtmlAnchor)homepage.getByXPath("/frameset[@id='frm']/frame[@name='mainFrame']/form[@id='Left_Menu']/div[@class='MenuDiv']/span/table/tbody/tr[1]/span/a");
+
+		System.out.print(first.asText());
+
+		/*HtmlAnchor servie = homepage.getAnchorByText("[N]시설물대여신청");
+		servie.click();*/
+
+		System.out.println(homepage.asXml());
+/*		HtmlPage page2 = webClient.getPage("https://forest.skhu.ac.kr/Gate/UniMainOneStop.aspx");
+
+		HtmlPage page3 = webClient.getPage("https://forest.skhu.ac.kr/Gate/UniMainOnestop.aspx?1=1&amp;maincd=O");
+		HtmlAnchor first = (HtmlAnchor)homepage.getByXPath("//form[@id='Left_Menu']")*/;
+
 		//웹서비스 메뉴바 항목을 클릭한 이후에 시설물대여 신청을 클릭하는 과정으로 구성된다.
 		/*ormSelect.getInputByName("OnMenu(0)").click(); //클릭
 		*//*formSelect.getInputByName("hideProgramName").click(); *//*// 시설물대여 신청 페이지로 이동 but 코드상에서 input테그로만 구성되어 있고 click버튼이 될지 말지는 미지수
