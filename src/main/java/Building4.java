@@ -2,10 +2,7 @@ import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
 import com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController;
 import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.html.HtmlAnchor;
-import com.gargoylesoftware.htmlunit.html.HtmlElement;
-import com.gargoylesoftware.htmlunit.html.HtmlForm;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.html.*;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.logging.Level;
@@ -36,7 +33,7 @@ public class Building4 {
 		form.getInputByName("txtPW").setValueAttribute("201532012");
 		HtmlPage homepage = form.getInputByName("ibtnLogin").click();
 		System.out.println("Login Success");
-		System.out.println(page.asXml());
+		/*System.out.println(page.asXml());*/
 
 		//시설물 대여 페이지로
 		/*HtmlPage page2 = webClient.getPage("https://forest.skhu.ac.kr/Gate/SAM/Lesson/G/SSEG20P.aspx?maincd=0&systemcd=S&seq=100");*/
@@ -59,14 +56,28 @@ public class Building4 {
 /*		HtmlAnchor first = (HtmlAnchor) homepage.getByXPath("//frame[@name='leftFrame']//div[@class='MenuDiv']/table/tbody/tr[1]/td/span[@class='leftmenu']/a").get(1);
 		first.click();*/
 
-		HtmlAnchor first = (HtmlAnchor)homepage.getByXPath("/frameset[@id='frm']/frame[@name='mainFrame']/form[@id='Left_Menu']/div[@class='MenuDiv']/span/table/tbody/tr[1]/span/a");
+		HtmlElement frameset1 = homepage.getBody();
+		DomNode node = frameset1.getLastChild().getPreviousSibling();
+		HtmlFrame fr1 = (HtmlFrame) node;
+		FrameWindow fw1 = (FrameWindow) fr1.getEnclosedWindow();
+		HtmlPage p1 = (HtmlPage) fw1.getEnclosedPage();
+//      System.out.println("p1 "+p1.asXml());
+
+		HtmlElement frameset2 = p1.getBody();
+		DomNode node2 = frameset2.getFirstChild().getNextSibling();
+		HtmlFrame fr2 = (HtmlFrame) node2;
+		FrameWindow fw2 = (FrameWindow) fr2.getEnclosedWindow();
+		HtmlPage p2 = (HtmlPage) fw2.getEnclosedPage();
+		System.out.println("p2 "+p2.asXml());
+
+		HtmlAnchor first = (HtmlAnchor)homepage.getByXPath("//form[@id='Left_Menu']/div[@class='MenuDiv']/span[@id='menu']/table/tbody/tr[1]/td[@class='leftmenuMargin1 | color1']/span/a[1]").get(1);
 
 		System.out.print(first.asText());
 
 		/*HtmlAnchor servie = homepage.getAnchorByText("[N]시설물대여신청");
 		servie.click();*/
 
-		System.out.println(homepage.asXml());
+/*		System.out.println(homepage.asXml());*/
 /*		HtmlPage page2 = webClient.getPage("https://forest.skhu.ac.kr/Gate/UniMainOneStop.aspx");
 
 		HtmlPage page3 = webClient.getPage("https://forest.skhu.ac.kr/Gate/UniMainOnestop.aspx?1=1&amp;maincd=O");
