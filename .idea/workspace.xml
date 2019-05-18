@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f78175d3-0101-4fbb-8af6-b61e2e8f2076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuildingFinal2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Building4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Building4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Building4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Building4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BuildingFinal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BuildingFinal2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -109,14 +106,14 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="34" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="59" />
-          <entry key="JAVA" value="8432" />
+          <entry key="JAVA" value="9704" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -127,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Building4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="34" column="44" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="266">
+              <caret line="68" column="64" lean-forward="true" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BuildingFinal2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,64 +146,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit/2.34.1/38b529348d6fde3776c3af220b1be5d915a4b889/htmlunit-2.34.1-sources.jar!/com/gargoylesoftware/htmlunit/html/HtmlForm.java">
+        <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_131/jdk1.8.0_131/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9804">
-              <caret line="571" selection-start-line="571" selection-end-line="571" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Building3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/espanSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testttest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="87" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BuildingFinal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="40" selection-start-line="40" selection-end-line="50" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="101">
+              <caret line="554" selection-start-line="554" selection-end-line="554" />
             </state>
           </provider>
         </entry>
@@ -557,9 +500,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="371" />
-    <option name="y" value="30" />
-    <option name="width" value="1839" />
+    <option name="x" value="583" />
+    <option name="y" value="242" />
+    <option name="width" value="1567" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -615,7 +558,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558184547355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558212924098" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -636,7 +579,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Building4">
+  <component name="RunManager" selected="Application.BuildingFinal2">
     <configuration name="Building4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Building4" />
       <module name="HelloWorld_main" />
@@ -651,8 +594,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Login" />
+    <configuration name="BuildingFinal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuildingFinal2" />
       <module name="HelloWorld_main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -673,19 +616,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Login" />
       <item itemvalue="Application.Building4" />
       <item itemvalue="Application.testttest" />
       <item itemvalue="Application.espanSearch" />
       <item itemvalue="Application.BuildingFinal" />
+      <item itemvalue="Application.BuildingFinal2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildingFinal2" />
         <item itemvalue="Application.Building4" />
         <item itemvalue="Application.BuildingFinal" />
         <item itemvalue="Application.espanSearch" />
         <item itemvalue="Application.testttest" />
-        <item itemvalue="Application.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -713,18 +656,18 @@
       <workItem from="1557805141470" duration="6935000" />
       <workItem from="1557813928329" duration="1188000" />
       <workItem from="1557823325284" duration="17783000" />
-      <workItem from="1558105087709" duration="1334000" />
+      <workItem from="1558105087709" duration="8649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107982000" />
+    <option name="totallyTimeSpent" value="115297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="467" y="194" width="1253" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.063704945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -733,7 +676,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1846591" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31088826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6539007" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -906,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_131/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="652" selection-start-line="652" selection-end-line="652" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit/2.34.1/38b529348d6fde3776c3af220b1be5d915a4b889/htmlunit-2.34.1-sources.jar!/com/gargoylesoftware/htmlunit/html/HtmlForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9804">
@@ -966,18 +902,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Building4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="266">
+          <caret line="68" column="64" lean-forward="true" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_131/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="652" selection-start-line="652" selection-end-line="652" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_131/jdk1.8.0_131/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="554" selection-start-line="554" selection-end-line="554" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BuildingFinal2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
