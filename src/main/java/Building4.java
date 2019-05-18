@@ -70,9 +70,11 @@ public class Building4 {
 		HtmlPage p2 = (HtmlPage) fw2.getEnclosedPage();
 		System.out.println("p2 "+p2.asXml());
 
-		HtmlAnchor first = (HtmlAnchor)homepage.getByXPath("//form[@id='Left_Menu']/div[@class='MenuDiv']/span[@id='menu']/table/tbody/tr[1]/td[@class='leftmenuMargin1 | color1']/span/a[1]").get(1);
+		HtmlElement ff = (HtmlElement) p1.getFirstByXPath("//table/tbody/tr[4]/td/span[@class='leftmenu']/a/span[1]");
+		System.out.println(ff.asText());
+/*		HtmlAnchor first = (HtmlAnchor)homepage.getByXPath("//form[@id='Left_Menu']/div[@class='MenuDiv']/span[@id='menu']/table/tbody/tr[1]/td[@class='leftmenuMargin1 | color1']/span/a[1]").get(1);
 
-		System.out.print(first.asText());
+		System.out.print(first.asText());*/
 
 		/*HtmlAnchor servie = homepage.getAnchorByText("[N]시설물대여신청");
 		servie.click();*/
