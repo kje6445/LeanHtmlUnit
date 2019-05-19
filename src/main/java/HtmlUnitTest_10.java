@@ -107,15 +107,7 @@ public class HtmlUnitTest_10 {
 		List<HtmlElement> classroomList2;
 		classroomList2=  test.getByXPath("//table[@id='gv시설목록']/tbody/tr[@class='cssAlternatingRowStyle']/td[1]");
 
-	/*	for(int i=0; i<classroomList1.size(); i++){
-			System.out.println(classroomList1.get(i).asText());
-		}
-		System.out.println("-------------------------------------");
-		for(int i=0; i<classroomList2.size(); i++){
-			System.out.println(classroomList2.get(i).asText());
-		}*/
 		System.out.println("*******************************************");
-/*		System.out.println(classroomList2.size()+classroomList1.size());*/
 		int check=0;
 		for(int j=0; j<(classroomList2.size()+classroomList1.size()); j++){
 			if(check%2==0){
@@ -132,6 +124,22 @@ public class HtmlUnitTest_10 {
 				break;
 			}
 		}
+		System.out.println("시설물 대여 강의실 1406를 선택해 보자");
+
+		HtmlAnchor link2 = null;
+		List<HtmlAnchor> anchors2 = test.getAnchors();
+		for (HtmlAnchor anchor : anchors2) {
+			String str = anchor.getId();
+			System.out.println("&(*) " + str);
+			if (anchor.getId().equals("gv시설목록_ctl02_btnSelect")) {
+				System.out.println("input ");
+				link2 = anchor;
+			}
+		}
+		System.out.println("link2 "+link2);
+		HtmlPage test2 = link2.click();
+		Thread.sleep(3_000);
+		System.out.println("test2 " + test2.asXml());
 	}
 
 	static void frame1(HtmlPage mainPage) throws Exception {
