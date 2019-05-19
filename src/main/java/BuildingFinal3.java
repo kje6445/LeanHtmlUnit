@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class HtmlUnitTest_10 {
+public class BuildingFinal3 {
 	static class Basic {
 		IdPw idPw = new IdPw();
 		WebClient webClient = new WebClient(BrowserVersion.INTERNET_EXPLORER);
