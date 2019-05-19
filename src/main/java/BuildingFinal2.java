@@ -50,8 +50,11 @@ public class BuildingFinal2 {
 		/*List<?> divs = packageListPage2.getByXPath("//div");
 		HtmlDivision div = (HtmlDivision) packageListPage2.getElementById("//span[@class='leftmenu2']");
 		System.out.println(div.asText());*/
-		/*System.out.println(packageListPage2.asXml());*/
-
+		System.out.println(packageListPage2.asText());
+		System.out.println("-----------------------------");
+		System.out.println(packageListPage2.asXml());
+		/*// 혹시 모를 버튼 클릭 이후의 에러를 발생하지 않게 하기 위해
+		webClient.waitForBackgroundJavaScript(10 * 1000);// 을 삽입해주기*/
 		/*HtmlAnchor link = null;
 		for(HtmlAnchor anchor : link){
 			String str = anchor.asText();
@@ -61,11 +64,12 @@ public class BuildingFinal2 {
 
 		HtmlPage pp = link.click();*/
 
-	/*	HtmlAnchor link = packageListPage2.getFirstByXPath("//span[@class='leftmenu2']");
+		/*HtmlAnchor link = packageListPage2.getFirstByXPath("//span[@class='leftmenu2']");
 		HtmlPage pagefinal = link.click();
 
-		System.out.print(pagefinal.asText());
-*/
+		System.out.print(pagefinal.asText());*/
+
+
 
 
 
